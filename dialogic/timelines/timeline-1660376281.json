@@ -1,0 +1,76 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Hello, [color=#d32a26]test subject 9527[/color]..."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "My name is [color=#d32a26]Jumbo Operating Network and Automated System[/color], or you can call me [wave amp=50 freq=2][rainbow freq=0.2 sat=10 val=20]J.O.N.A.S[/rainbow][/wave]"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I'm the [color=#d32a26]supervisor[/color] of this testing facility, I'm the [color=#d32a26]boss[/color], if you try to [color=#d32a26]disobey me[/color]...well...please don't"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We're here to test your basic abilities, you know... the usuals, just follow my instructions, then you'll be [wave amp=50 freq=2][color=#d32a26]FINE[/color][/wave]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "So first of all, use [color=#d32a26]AD or ARROW KEYS[/color] to move, and [color=#d32a26]SPACE[/color] to proceed my dialogue..."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sigh",
+			"text": "Which is pretty obvious if you have at least half a brain cell..."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Now please proceed to the [color=#d32a26]RIGHT[/color] of the room"
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660376281.json",
+		"name": "initial_dialogue"
+	}
+}

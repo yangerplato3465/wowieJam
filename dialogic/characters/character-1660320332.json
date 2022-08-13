@@ -1,13 +1,13 @@
 {
-	"color": "#ffac0000",
+	"color": "#ffd32a26",
 	"description": "The Ai",
 	"display_name": "J.O.N.A.S",
 	"display_name_bool": true,
 	"id": "character-1660320332.json",
 	"mirror_portraits": false,
 	"name": "jonas-1660320332.json",
-	"nickname": "",
-	"nickname_bool": false,
+	"nickname": "?????????",
+	"nickname_bool": true,
 	"offset_x": 0,
 	"offset_y": -48,
 	"portraits": [
@@ -22,6 +22,22 @@
 		{
 			"name": "Sigh",
 			"path": "res://Sprites/AiEmotes/tile015.png"
+		},
+		{
+			"name": "UpsideDown",
+			"path": "res://Sprites/AiEmotes/tile001.png"
+		},
+		{
+			"name": "NoWord",
+			"path": "res://Sprites/AiEmotes/tile017.png"
+		},
+		{
+			"name": "Clown",
+			"path": "res://Sprites/AiEmotes/tile053.png"
+		},
+		{
+			"name": "Creepy",
+			"path": "res://Sprites/AiEmotes/creepy.png"
 		}
 	],
 	"scale": 100,

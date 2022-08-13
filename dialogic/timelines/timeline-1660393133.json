@@ -1,0 +1,74 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[shake rate=20 level=10][color=#d32a26]Ok 9527, you're kinda getting on my nerves[/color][/shake]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "And I don't even have nerves.  [shake rate=20 level=10][color=#d32a26]THIS IS NOT A STUPID CONTEST, DO AS I SAY[/color][/shake] I'll give you a last chance, [shake rate=20 level=10][color=#d32a26]DON'T F  IT UP[/color][/shake]."
+		},
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sigh",
+			"text": "3..."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "2..."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "1..."
+		},
+		{
+			"emit_signal": "jump",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#d32a26]JUMP!![/color]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660393133.json",
+		"name": "trigger_first_jump_4"
+	}
+}

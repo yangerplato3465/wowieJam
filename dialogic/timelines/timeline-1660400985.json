@@ -1,17 +1,17 @@
 {
 	"events": [
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Clown",
 			"portrait_definition": "",
 			"position": {
-				"0": true,
+				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -21,15 +21,15 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1660320332.json",
+			"character": "",
 			"event_id": "dialogic_001",
-			"portrait": "Angry",
-			"text": "Hello 9527"
+			"portrait": "",
+			"text": "I can assure you there is no [color=#d32a26]cake[/color]..."
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.4",
-		"file": "timeline-1660323179.json",
-		"name": "first"
+		"file": "timeline-1660400985.json",
+		"name": "trigger_reminder_dont_go_left_3"
 	}
 }
