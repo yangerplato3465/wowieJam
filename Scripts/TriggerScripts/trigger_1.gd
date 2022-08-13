@@ -9,7 +9,7 @@ func _physics_process(delta):
 			return
 		if triggerTimes == 0:
 			triggerTimes += 1
-			createDialogue('trigger_first_jump_5')
+			createDialogue('trigger_first_jump_1')
 		elif triggerTimes == 1:
 			triggerTimes += 1
 			createDialogue('trigger_first_jump_2')

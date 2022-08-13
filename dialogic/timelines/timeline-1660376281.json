@@ -31,7 +31,7 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "(Don't change)",
-			"text": "My name is [color=#d32a26]Jumbo Operating Network and Automated System[/color], or you can call me [wave amp=50 freq=2][rainbow freq=0.2 sat=10 val=20]J.O.N.A.S[/rainbow][/wave]"
+			"text": "My name is [color=#d32a26]Jumbo Operating Network and Automated System[/color], or you can call me [wave amp=50 freq=2][rainbow freq=1 sat=10 val=20]J.O.N.A.S[/rainbow][/wave]"
 		},
 		{
 			"character": "character-1660320332.json",
@@ -43,7 +43,7 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "We're here to test your basic abilities, you know... the usuals, just follow my instructions, then you'll be [wave amp=50 freq=2][color=#d32a26]FINE[/color][/wave]."
+			"text": "We're here to test your basic abilities, you know... the usuals, just follow my instructions, [wave amp=50 freq=2][color=#d32a26]we work together[/color][/wave], then you'll be [wave amp=50 freq=2][color=#d32a26]FINE[/color][/wave]."
 		},
 		{
 			"character": "character-1660320332.json",

@@ -24,7 +24,7 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "UpsideDown",
-			"text": "That's ok, it's your first try, I'll give you a second shot, [wave amp=50 freq=2][color=#d32a26]dont mess up this time[/color][/wave]."
+			"text": "That's ok, it's your first try, I'll give you a second shot, [wave amp=50 freq=2][color=#d32a26]dont mess up this time[/color][/wave] :)"
 		},
 		{
 			"block_input": true,
