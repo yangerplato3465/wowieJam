@@ -1,0 +1,29 @@
+{
+	"color": "#ffac0000",
+	"description": "The Ai",
+	"display_name": "J.O.N.A.S",
+	"display_name_bool": true,
+	"id": "character-1660320332.json",
+	"mirror_portraits": false,
+	"name": "jonas-1660320332.json",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -48,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Sprites/AiEmotes/tile000.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://Sprites/AiEmotes/tile002.png"
+		},
+		{
+			"name": "Sigh",
+			"path": "res://Sprites/AiEmotes/tile015.png"
+		}
+	],
+	"scale": 100,
+	"theme": "default-theme.cfg"
+}
