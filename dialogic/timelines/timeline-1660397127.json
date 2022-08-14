@@ -25,6 +25,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "Creepy",
 			"text": "[shake rate=20 level=10][color=#d32a26]TO HELL YOU GO....[/color][/shake]"
+		},
+		{
+			"change_scene": "res://Scene/bad_ending_piss_off_jonas.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

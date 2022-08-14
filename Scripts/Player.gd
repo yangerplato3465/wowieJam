@@ -45,12 +45,16 @@ func _physics_process(delta):
 	velocity = move_and_slide(velocity, Vector2.UP)
 
 func forceDialogue(timeline):
-	
-	var dialog = Dialogic.start(timeline)
-	add_child(dialog)
-	dialog.connect('dialogic_signal', self, 'dialogic_signal')
+	if Dialogic.has_current_dialog_node():
+		if Dialogic.get_current_timeline() != 'early_jump':
+			Dialogic.change_timeline(timeline)
+	else:
+		var dialog = Dialogic.start(timeline)
+		add_child(dialog)
+		dialog.connect('dialogic_signal', self, 'dialogic_signal')
 
 func dialogic_signal(name):
+	print("here")
 	if name == 'cantMove':
 		cantMove()
 

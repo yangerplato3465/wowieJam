@@ -38,7 +38,6 @@ script = ExtResource( 4 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 3 )
 animation = "Run"
-frame = 1
 playing = true
 
 [node name="Glitch" parent="." instance=ExtResource( 1 )]
