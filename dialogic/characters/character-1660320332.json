@@ -38,6 +38,10 @@
 		{
 			"name": "Creepy",
 			"path": "res://Sprites/AiEmotes/creepy.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://Sprites/AiEmotes/tile019.png"
 		}
 	],
 	"scale": 100,

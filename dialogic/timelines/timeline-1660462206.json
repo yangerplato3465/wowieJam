@@ -8,7 +8,7 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Creepy",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -24,12 +24,18 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " [wave amp=50 freq=2][rainbow freq=1 sat=10 val=20]Congrats!![/rainbow][/wave] You finished your first task, lets proceed to the computer tasks.."
+			"text": "[shake rate=20 level=10] [color=#d32a26][b]Icanassureyouthereisnocake... buttherewillbeCORPSES....[/b][/color][/shake]"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "UpsideDown",
+			"text": "Ahem.. I mean no cake, there's no cake"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.4",
-		"file": "timeline-1660409577.json",
-		"name": "trigger_finish_first_jump"
+		"file": "timeline-1660462206.json",
+		"name": "trigger_reminder_dont_go_left_4"
 	}
 }

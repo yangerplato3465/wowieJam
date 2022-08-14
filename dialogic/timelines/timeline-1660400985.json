@@ -21,9 +21,9 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Clown",
 			"text": "I can assure you there is no [color=#d32a26]cake[/color]..."
 		}
 	],

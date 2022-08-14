@@ -7,11 +7,16 @@ var acceleration = 20
 var gravity = 10
 var jumpHeight = 240
 var normalJumpHeight = 100
+var canMove = true
 
 func _ready():
 	SignalManager.connect('playerJump', self, 'jump')
+	SignalManager.connect('usePC', self, 'usePC')
+	SignalManager.connect('canMove', self, 'canMove')
 
 func _physics_process(delta):
+	if !canMove:
+		return
 	applyGravity()
 	var input = Vector2.ZERO
 	input.x = Input.get_action_strength("right") - Input.get_action_strength("left")
@@ -27,13 +32,19 @@ func _physics_process(delta):
 			$AnimatedSprite.scale.x = -1
 	
 	if is_on_floor():
-		pass
-#		if Input.is_action_just_pressed("up"):
-#			velocity.y = -normalJumpHeight
+		if Input.is_action_just_pressed("up"):
+			velocity.y = -jumpHeight
 	else:
 		$AnimatedSprite.animation = 'Jump'
 			
 	velocity = move_and_slide(velocity, Vector2.UP)
+
+func usePC():
+	canMove = false;
+	$AnimatedSprite.animation = 'usePC'
+
+func canMove():
+	canMove = true
 
 func jump():
 	velocity.y = -jumpHeight

@@ -1,0 +1,186 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Now for some computer tasks, it's really simple,  [wave amp=50 freq=2][color=#d32a26]I'll even tell you the answer first[/color][/wave]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "The answer to the first question is [color=#d32a26]13[/color]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now go ahead and take the quiz."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "8 + 6 = ?"
+		},
+		{
+			"choice": "12",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sigh",
+			"text": "Bro what are you? 5? This is basic math, I even told you the answer... I'll give you another shot... it's [color=#d32a26]13[/color]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Sigh",
+			"question": "8 + 6 = ?"
+		},
+		{
+			"choice": "13",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "That's correct!!  [wave amp=50 freq=2][rainbow freq=1 sat=10 val=20]Congrats!![/rainbow][/wave] Let's move on to the next question."
+		},
+		{
+			"emit_signal": "canMove",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "14",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "[shake rate=20 level=10][color=#d32a26]That's it, no more math question for you....[/color][/shake]"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "13",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "That's correct!!  [wave amp=50 freq=2][rainbow freq=1 sat=10 val=20]Congrats!![/rainbow][/wave] Let's move on to the next question."
+		},
+		{
+			"emit_signal": "canMove",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "14",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sigh",
+			"text": "Bro what are you? 5? This is basic math, I even told you the answer... I'll give you another shot... it's [color=#d32a26]13[/color]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Sigh",
+			"question": "8 + 6 = ?"
+		},
+		{
+			"choice": "12",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "[shake rate=20 level=10][color=#d32a26]That's it, no more math question for you....[/color][/shake]"
+		},
+		{
+			"choice": "13",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "That's correct!!  [wave amp=50 freq=2][rainbow freq=1 sat=10 val=20]Congrats!![/rainbow][/wave] Let's move on to the next question."
+		},
+		{
+			"emit_signal": "canMove",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660452228.json",
+		"name": "computer_1"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Creepy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]Whatdoyouthinkyou'redoingIcanpopyoureyesoutyoureyeholeandsuckoutallyourbrainjuiceyouthinkthisisfunnyhuhhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhellhell[/b]"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "UpsideDown",
+			"text": "Ahem... please finish the computer tasks first"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660474798.json",
+		"name": "trigger_hit_wall_2"
+	}
+}

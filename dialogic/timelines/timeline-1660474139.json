@@ -8,7 +8,7 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Sigh",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -24,12 +24,12 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " [wave amp=50 freq=2][rainbow freq=1 sat=10 val=20]Congrats!![/rainbow][/wave] You finished your first task, lets proceed to the computer tasks.."
+			"text": "Please finish your computer tasks first."
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.4",
-		"file": "timeline-1660409577.json",
-		"name": "trigger_finish_first_jump"
+		"file": "timeline-1660474139.json",
+		"name": "trigger_hit_wall_1"
 	}
 }
