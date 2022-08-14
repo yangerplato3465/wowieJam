@@ -1,0 +1,61 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Prefabs/GlitchFast.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Sprites/Jonas/Idle (16 x 16).png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Jonas/Run (16 x 16).png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Jonas.gd" type="Script" id=4]
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 48, 48 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 3 )
+region = Rect2( 48, 0, 48, 48 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 6 ), SubResource( 7 ) ],
+"loop": true,
+"name": "Run",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 18.5, 21.5 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 20.5, 34.5 )
+
+[node name="Jonas" type="KinematicBody2D"]
+script = ExtResource( 4 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 3 )
+animation = "Run"
+frame = 1
+playing = true
+
+[node name="Glitch" parent="." instance=ExtResource( 1 )]
+position = Vector2( -9, -6 )
+
+[node name="Glitch2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 13, -4 )
+
+[node name="Glitch3" parent="." instance=ExtResource( 1 )]
+position = Vector2( -3, 13 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 1.5, 2.5 )
+shape = SubResource( 4 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 1.5, -13.5 )
+shape = SubResource( 5 )

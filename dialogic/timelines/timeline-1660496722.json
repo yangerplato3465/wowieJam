@@ -1,0 +1,94 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "How do you feel about today's tests."
+		},
+		{
+			"choice": "Good",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No comment",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Bad",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[b]bloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodblood[/b][shake rate=20 level=10][color=#d32a26]Are you ok with your body parts taken away for energy usage?[/color][/shake][b]bloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodbloodblood[/b]"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Creepy",
+			"text": "[shake rate=20 level=10][color=#d32a26]GOOD, THOSE ANSWERS DON'T MATTER, YOU'RE MINE NOW[/color][/shake][b]bloodblohellodblohellodbloodbloohelldbloodbhellloohelldbloodbloodbloodbloodbloodbloodbloohelldbloodhellblood[/b]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660496722.json",
+		"name": "computer_3"
+	}
+}

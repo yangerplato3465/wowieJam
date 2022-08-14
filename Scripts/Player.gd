@@ -8,11 +8,14 @@ var gravity = 10
 var jumpHeight = 240
 var normalJumpHeight = 100
 var canMove = true
+var canJJump = false
 
 func _ready():
 	SignalManager.connect('playerJump', self, 'jump')
 	SignalManager.connect('usePC', self, 'usePC')
 	SignalManager.connect('canMove', self, 'canMove')
+	SignalManager.connect('cantMove', self, 'cantMove')
+	SignalManager.connect('unlockJ', self, 'unlockJ')
 
 func _physics_process(delta):
 	if !canMove:
@@ -32,12 +35,24 @@ func _physics_process(delta):
 			$AnimatedSprite.scale.x = -1
 	
 	if is_on_floor():
-		if Input.is_action_just_pressed("up"):
+		if Input.is_action_just_pressed("jump"):
 			velocity.y = -jumpHeight
+			if !canJJump:
+				forceDialogue('early_jump')
 	else:
 		$AnimatedSprite.animation = 'Jump'
 			
 	velocity = move_and_slide(velocity, Vector2.UP)
+
+func forceDialogue(timeline):
+	
+	var dialog = Dialogic.start(timeline)
+	add_child(dialog)
+	dialog.connect('dialogic_signal', self, 'dialogic_signal')
+
+func dialogic_signal(name):
+	if name == 'cantMove':
+		cantMove()
 
 func usePC():
 	canMove = false;
@@ -45,6 +60,9 @@ func usePC():
 
 func canMove():
 	canMove = true
+
+func cantMove():
+	canMove = false
 
 func jump():
 	velocity.y = -jumpHeight
@@ -57,6 +75,9 @@ func applyFriction():
 	
 func applyAcceleration(input):
 	velocity.x = move_toward(velocity.x, moveSpeed * input, acceleration)
+
+func unlockJ():
+	canJJump = true
 
 func death():
 	get_tree().reload_current_scene()

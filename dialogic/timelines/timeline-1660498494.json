@@ -1,0 +1,67 @@
+{
+	"events": [
+		{
+			"emit_signal": "unlockJ",
+			"event_id": "dialogic_040"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660498271.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660498271.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey... pssss, hey can you here me. [color=#d32a26]Listen carefully[/color]..."
+		},
+		{
+			"character": "character-1660498271.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "J.O.N.A.S [color=#d32a26]DIDN'T TAKE AWAY YOUR JUMP ABILITY[/color]..."
+		},
+		{
+			"character": "character-1660498271.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He moved it to the [color=#d32a26]J KEY[/color]... Go ahead [color=#d32a26]TRY THE J KEY[/color]..."
+		},
+		{
+			"character": "character-1660498271.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok you don't have much time, there is a way out, [color=#d32a26]LOOK FOR THE WHITE TUNNEL[/color]..."
+		},
+		{
+			"character": "character-1660498271.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh no he's coming, [shake rate=20 level=10][color=#d32a26]RUN FOR YOUR LIFE!!![/color][/shake]"
+		},
+		{
+			"emit_signal": "jonasRun",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660498494.json",
+		"name": "trigger_remind_jump"
+	}
+}

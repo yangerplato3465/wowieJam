@@ -1,0 +1,96 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sigh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Would you look at that, [color=#d32a26]a pit[/color]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Those darn repair bots forgot to fix this spot"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Well, [color=#d32a26]9527[/color]. If I were you, I'll try my best [color=#d32a26]to not fall in there[/color]. It's a deep hole, you'll [color=#d32a26]DIE[/color]."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I'll count down from [color=#d32a26]3[/color] and boost you up again, like we practiced earlier."
+		},
+		{
+			"emit_signal": "canMove",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sigh",
+			"text": "[color=#d32a26]I'll keep help you jump until you make it to the other side[/color], then we can finish this test."
+		},
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "3..."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "2..."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "1..."
+		},
+		{
+			"emit_signal": "jump",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#d32a26]JUMP!![/color]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660495514.json",
+		"name": "trigger_warn_pit_1"
+	}
+}

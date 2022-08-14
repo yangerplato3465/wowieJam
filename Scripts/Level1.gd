@@ -6,8 +6,9 @@ func _ready():
 	
 func dialogic_signal(name):
 	pass
-#	if name == 'jump':
-#		SignalManager.emit_signal("playerJump")
+#	print('here')
+#	if name == 'cantMove':
+#		SignalManager.emit_signal("cantMove")
 #	elif name == 'end':
 #		if trigger_1:
 #			createDialogue('trigger_1')

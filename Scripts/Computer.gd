@@ -1,6 +1,7 @@
 extends Area2D
 
 var triggerTimes = 0
+export(bool) var isLast = false
 
 func _physics_process(delta):
 	var body = get_overlapping_bodies()
@@ -8,13 +9,17 @@ func _physics_process(delta):
 		if Dialogic.has_current_dialog_node():
 			return
 		if Input.is_action_just_pressed("ui_accept"):
-			if triggerTimes == 0:
-				triggerTimes += 1
-				createDialogue("computer_1")
-				SignalManager.emit_signal("usePC")
-			elif triggerTimes == 1:
-				triggerTimes += 1
-				createDialogue("computer_2")
+			if !isLast:
+				if triggerTimes == 0:
+					triggerTimes += 1
+					createDialogue("computer_1")
+					SignalManager.emit_signal("usePC")
+				elif triggerTimes == 1:
+					triggerTimes += 1
+					createDialogue("computer_2")
+					SignalManager.emit_signal("usePC")
+			elif isLast:
+				createDialogue("computer_3")
 				SignalManager.emit_signal("usePC")
 			
 func dialogic_signal(name):

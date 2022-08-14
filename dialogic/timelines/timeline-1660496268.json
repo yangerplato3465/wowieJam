@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50 freq=2][rainbow freq=1 sat=10 val=20]Congrats!! Wooo!!![/rainbow][/wave] You did it, you make it to the final!!"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Now, [color=#d32a26]there is only a few more question left[/color], it's a little survey of what you feel about today's tests."
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Go ahead, use the computer to take the survey."
+		},
+		{
+			"emit_signal": "canMove",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660496268.json",
+		"name": "trigger_over_pit"
+	}
+}

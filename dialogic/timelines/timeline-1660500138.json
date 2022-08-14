@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Creepy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"emit_signal": "cantMove",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "Creepy",
+			"text": "[shake rate=20 level=10] [color=#d32a26][b]whythehelldoyouknowhowtojump.[/b][/color][/shake][shake rate=20 level=10] [color=#d32a26]WHY THE HELL DO YOU KNOW HOW TO JUMP???.[/color][/shake][shake rate=20 level=10] [color=#d32a26][b]whythehelldoyouknowhowtojump.[/b][/color][/shake]"
+		},
+		{
+			"character": "character-1660320332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[shake rate=20 level=10] [color=#d32a26][b]youknowtoomuch.[/b][/color][/shake][shake rate=20 level=10] [color=#d32a26]IT CAN'T BE, IT CAN'T BEEEEEE, YOU NEED TO DIE NOW!!![/color][/shake][shake rate=20 level=10] [color=#d32a26][b]whythehelldoyouknowhowtojump.[/b][/color][/shake]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660500138.json",
+		"name": "early_jump"
+	}
+}
