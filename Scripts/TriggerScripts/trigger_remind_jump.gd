@@ -4,7 +4,7 @@ var triggerTimes = 0
 
 func _physics_process(delta):
 	var body = get_overlapping_bodies()
-	if body.size() > 0:
+	if body.size() > 3:
 		if Dialogic.has_current_dialog_node():
 			return
 		if triggerTimes == 0:
@@ -19,6 +19,10 @@ func dialogic_signal(name):
 		SignalManager.emit_signal("unlockJ")
 	elif name == 'playAudio':
 		SignalManager.emit_signal("playAudio", 'HorrorHall')
+	elif name == 'cantMove':
+		SignalManager.emit_signal("cantMove")
+	elif name == 'canMove':
+		SignalManager.emit_signal("canMove")
 		
 
 func createDialogue(timeline):

@@ -24,7 +24,7 @@
 			"character": "character-1660498271.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hey... pssss, hey can you here me. [color=#d32a26]Listen carefully[/color]..."
+			"text": "Hey... pssss, hey can you hear me. [color=#d32a26]Listen carefully[/color]..."
 		},
 		{
 			"emit_signal": "playAudio",
@@ -32,6 +32,10 @@
 		},
 		{
 			"emit_signal": "unlockJ",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "cantMove",
 			"event_id": "dialogic_040"
 		},
 		{
@@ -44,7 +48,7 @@
 			"character": "character-1660498271.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "He moved it to the [color=#d32a26]J KEY[/color]... Go ahead [color=#d32a26]TRY THE J KEY[/color]..."
+			"text": "He moved it to the [color=#d32a26]J KEY[/color]... REMEMBER [color=#d32a26]THE J KEY[/color]..."
 		},
 		{
 			"character": "character-1660498271.json",
@@ -57,6 +61,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Oh no he's coming, [shake rate=20 level=10][color=#d32a26]RUN FOR YOUR LIFE!!![/color][/shake]"
+		},
+		{
+			"emit_signal": "canMove",
+			"event_id": "dialogic_040"
 		},
 		{
 			"emit_signal": "jonasRun",

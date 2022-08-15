@@ -26,10 +26,6 @@
 [ext_resource path="res://Prefabs/AudioManager.tscn" type="PackedScene" id=24]
 [ext_resource path="res://Scripts/TriggerScripts/out_tunnel.gd" type="Script" id=28]
 
-[sub_resource type="AtlasTexture" id=11]
-atlas = ExtResource( 11 )
-region = Rect2( 0, 0, 16, 16 )
-
 [sub_resource type="AtlasTexture" id=5]
 atlas = ExtResource( 3 )
 region = Rect2( 0, 0, 16, 16 )
@@ -38,16 +34,20 @@ region = Rect2( 0, 0, 16, 16 )
 atlas = ExtResource( 3 )
 region = Rect2( 16, 0, 16, 16 )
 
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 11 )
+region = Rect2( 0, 0, 16, 16 )
+
 [sub_resource type="SpriteFrames" id=7]
 animations = [ {
-"frames": [ SubResource( 11 ) ],
-"loop": true,
-"name": "usePC",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 2 ) ],
 "loop": true,
 "name": "Jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "Idle",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 5 ), SubResource( 6 ) ],
@@ -55,9 +55,9 @@ animations = [ {
 "name": "Run",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 6 ) ],
+"frames": [ SubResource( 11 ) ],
 "loop": true,
-"name": "Idle",
+"name": "usePC",
 "speed": 5.0
 } ]
 
@@ -165,7 +165,7 @@ extents = Vector2( 4.5, 5 )
 extents = Vector2( 28.5, 1.25 )
 
 [sub_resource type="RectangleShape2D" id=15]
-extents = Vector2( 100, 2 )
+extents = Vector2( 174, 2 )
 
 [sub_resource type="RectangleShape2D" id=18]
 extents = Vector2( 61, 5 )
@@ -324,11 +324,11 @@ script = ExtResource( 18 )
 shape = SubResource( 10 )
 
 [node name="trigger_remind_jump" type="Area2D" parent="Triggers"]
-position = Vector2( 904, 472 )
+position = Vector2( 1080, 472 )
 script = ExtResource( 19 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Triggers/trigger_remind_jump"]
-position = Vector2( 68, 0 )
+position = Vector2( -30, 0 )
 shape = SubResource( 15 )
 
 [node name="trigger_good_end" type="Area2D" parent="Triggers"]
