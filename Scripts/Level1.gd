@@ -1,8 +1,11 @@
 extends Node2D
 
 
+
 func _ready():
+	SignalManager.connect('playAudio', self, 'playAudio')
 	createDialogue('initial_dialogue')
+	$AudioManager.play('Normal')
 	
 func dialogic_signal(name):
 	pass
@@ -17,4 +20,7 @@ func createDialogue(timeline):
 	var dialog = Dialogic.start(timeline)
 	add_child(dialog)
 	dialog.connect('dialogic_signal', self, 'dialogic_signal')
+
+func playAudio(name):
+	$AudioManager.play(name)
 

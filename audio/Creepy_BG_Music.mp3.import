@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Creepy_BG_Music.mp3-52036be2433f7eefe093c901b573a46f.mp3str"
+
+[deps]
+
+source_file="res://audio/Creepy_BG_Music.mp3"
+dest_files=[ "res://.import/Creepy_BG_Music.mp3-52036be2433f7eefe093c901b573a46f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -6,3 +6,4 @@ signal cantMove
 signal openWall
 signal jonasRun
 signal unlockJ
+signal playAudio

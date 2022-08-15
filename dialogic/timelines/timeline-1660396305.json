@@ -24,7 +24,7 @@
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "Creepy",
-			"text": "[shake rate=20 level=10][color=#d32a26]IS THIS WHAT YOU WANT???? TO PISS ME OFF??? I KNOW YOU'RE A WASTE OF TIME[/color][/shake]"
+			"text": "[shake rate=20 level=10][color=#d32a26]IS THIS WHAT YOU WANT???? TO PISS ME OFF??? I KNEW YOU'RE A WASTE OF TIME[/color][/shake]"
 		},
 		{
 			"character": "character-1660320332.json",
@@ -102,6 +102,10 @@
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"emit_signal": "playAudio",
+			"event_id": "dialogic_040"
 		},
 		{
 			"character": "character-1660320332.json",

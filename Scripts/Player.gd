@@ -36,7 +36,7 @@ func _physics_process(delta):
 	
 	if is_on_floor():
 		if Input.is_action_just_pressed("jump"):
-			velocity.y = -jumpHeight
+			jump()
 			if !canJJump:
 				forceDialogue('early_jump')
 	else:
@@ -69,6 +69,7 @@ func cantMove():
 	canMove = false
 
 func jump():
+	$AudioStreamPlayer.play()
 	velocity.y = -jumpHeight
 
 func applyGravity():
@@ -84,4 +85,9 @@ func unlockJ():
 	canJJump = true
 
 func death():
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://Scene/bad_ending_die_to_jonas.tscn")
+
+
+func _on_Area2D_body_entered(body):
+	if body.name == 'Jonas':
+		death()

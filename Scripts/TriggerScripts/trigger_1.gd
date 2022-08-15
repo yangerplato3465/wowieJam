@@ -47,6 +47,8 @@ func _physics_process(delta):
 func dialogic_signal(name):
 	if name == 'jump':
 		SignalManager.emit_signal("playerJump")
+	elif name == 'playAudio':
+		SignalManager.emit_signal("playAudio", 'HorrorJonas')
 
 func createDialogue(timeline):
 	var dialog = Dialogic.start(timeline)

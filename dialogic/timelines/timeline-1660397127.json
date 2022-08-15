@@ -21,6 +21,10 @@
 			"z_index": 0
 		},
 		{
+			"emit_signal": "playAudio",
+			"event_id": "dialogic_040"
+		},
+		{
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "Creepy",

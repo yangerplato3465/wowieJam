@@ -80,10 +80,18 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"emit_signal": "playAudio",
+			"event_id": "dialogic_040"
+		},
+		{
 			"character": "character-1660320332.json",
 			"event_id": "dialogic_001",
 			"portrait": "Creepy",
 			"text": "[shake rate=20 level=10][color=#d32a26]GOOD, THOSE ANSWERS DON'T MATTER, YOU'RE MINE NOW[/color][/shake][b]bloodblohellodblohellodbloodbloohelldbloodbhellloohelldbloodbloodbloodbloodbloodbloodbloohelldbloodhellblood[/b]"
+		},
+		{
+			"change_scene": "res://Scene/bad_ending_slave.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

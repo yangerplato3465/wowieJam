@@ -27,6 +27,8 @@ func dialogic_signal(name):
 		SignalManager.emit_signal("canMove")
 	elif name == 'openWall':
 		SignalManager.emit_signal("openWall")
+	elif name == 'playAudio':
+		SignalManager.emit_signal('playAudio', 'HorrorJonas')
 
 func createDialogue(timeline):
 	var dialog = Dialogic.start(timeline)

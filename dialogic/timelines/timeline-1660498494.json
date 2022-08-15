@@ -1,12 +1,8 @@
 {
 	"events": [
 		{
-			"emit_signal": "unlockJ",
-			"event_id": "dialogic_040"
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.1,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1660498271.json",
@@ -15,7 +11,7 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -29,6 +25,14 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Hey... pssss, hey can you here me. [color=#d32a26]Listen carefully[/color]..."
+		},
+		{
+			"emit_signal": "playAudio",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "unlockJ",
+			"event_id": "dialogic_040"
 		},
 		{
 			"character": "character-1660498271.json",
